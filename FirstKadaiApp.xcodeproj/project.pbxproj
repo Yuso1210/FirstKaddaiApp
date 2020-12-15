@@ -12,7 +12,6 @@
 		538E54AA255B266700B966FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E54A9255B266700B966FB /* ViewController.swift */; };
 		538E54AD255B266700B966FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538E54AB255B266700B966FB /* Main.storyboard */; };
 		538E54AF255B266900B966FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538E54AE255B266900B966FB /* Assets.xcassets */; };
-		538E54B2255B266900B966FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538E54B0255B266900B966FB /* LaunchScreen.storyboard */; };
 		538E54BD255B266A00B966FB /* FirstKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E54BC255B266A00B966FB /* FirstKadaiAppTests.swift */; };
 		538E54C8255B266A00B966FB /* FirstKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E54C7255B266A00B966FB /* FirstKadaiAppUITests.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		538E54A9255B266700B966FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		538E54AC255B266700B966FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		538E54AE255B266900B966FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		538E54B1255B266900B966FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538E54B3255B266900B966FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		538E54B8255B266A00B966FB /* FirstKadaiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstKadaiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538E54BC255B266A00B966FB /* FirstKadaiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstKadaiAppTests.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				538E54A9255B266700B966FB /* ViewController.swift */,
 				538E54AB255B266700B966FB /* Main.storyboard */,
 				538E54AE255B266900B966FB /* Assets.xcassets */,
-				538E54B0255B266900B966FB /* LaunchScreen.storyboard */,
 				538E54B3255B266900B966FB /* Info.plist */,
 			);
 			path = FirstKadaiApp;
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538E54B2255B266900B966FB /* LaunchScreen.storyboard in Resources */,
 				538E54AF255B266900B966FB /* Assets.xcassets in Resources */,
 				538E54AD255B266700B966FB /* Main.storyboard in Resources */,
 			);
@@ -303,14 +299,6 @@
 				538E54AC255B266700B966FB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		538E54B0255B266900B966FB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				538E54B1255B266900B966FB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
